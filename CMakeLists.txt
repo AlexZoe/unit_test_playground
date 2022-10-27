@@ -77,10 +77,10 @@ set(test_sources
   ${CMAKE_SOURCE_DIR}/unit_tests/test_runner.cpp
   ${CMAKE_SOURCE_DIR}/unit_tests/test_template.cpp
 )
+
 # Add test source files for production code here
 set(sources
-  ${CMAKE_SOURCE_DIR}/unit_tests/test_runner.cpp
-  ${CMAKE_SOURCE_DIR}/unit_tests/test_template.cpp
+#  ${CMAKE_SOURCE_DIR}/src/some_file.cpp
 )
 
 add_executable(test_runner ${sources} ${test_sources})
